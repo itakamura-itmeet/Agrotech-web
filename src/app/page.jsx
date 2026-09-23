@@ -1,6 +1,7 @@
 import AgrotechContainer from "@/components/agrotech/AgrotechContainer";
 import Link from "next/link";
 import Logo from '@/assets/logo/LogoHeader';
+import AccountMenu from "@/components/auth/AccountMenu";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <span>🌱</span>
             AgroTech IoT Dashboard
           </h1>
+          <AccountMenu />
         </div>
       </header>
       <main className="p-10">

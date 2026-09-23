@@ -1,5 +1,6 @@
 import ClassificationDetail from "@/components/agrotech/ClassificationDetail";
 import Link from "next/link";
+import AccountMenu from "@/components/auth/AccountMenu";
 
 export default function AgrotechDetailPage({ params }) {
   // params.id is available in Server Components
@@ -18,6 +19,7 @@ export default function AgrotechDetailPage({ params }) {
               </h1>
             </div>
           </div>
+          <AccountMenu />
         </div>
       </header>
       <main className="max-w-7xl mx-auto p-10 lg:p-12">

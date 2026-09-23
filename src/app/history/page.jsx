@@ -1,5 +1,6 @@
 import HistoryList from "@/components/agrotech/HistoryList";
 import Link from "next/link";
+import AccountMenu from "@/components/auth/AccountMenu";
 
 export default function AgrotechHistoryPage() {
   return (
@@ -14,6 +15,7 @@ export default function AgrotechHistoryPage() {
               📋 Historial de Análisis
             </h1>
           </div>
+          <AccountMenu />
         </div>
       </header>
       <main className="max-w-7xl mx-auto p-10 lg:p-12">

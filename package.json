@@ -10,6 +10,8 @@
         "lint": "next lint"
     },
     "dependencies": {
+        "@clerk/localizations": "3.37.9",
+        "@clerk/nextjs": "6.39.7",
         "aws-amplify": "^6.16.0",
         "next": "^14.2.0",
         "react": "^18.2.0",
